@@ -42,7 +42,7 @@
     #message {
       display: none;
       font-size: 72px;
-      font-style: italic;
+      font-style: normal;
       text-shadow: 0 0 10px #fff;
     }
 
@@ -76,7 +76,7 @@
 
 <body>
   <div class="bubble" id="bubble">Good Morning<br>Asawa Ko<br>eclick mo ito</div>
-  <p id="message">&#128152; I Love You &#128152;</p>
+  <p id="message">&#128152; I Love You Asawa Ko &#128152;<br>&#128536;&#128536;&#128536;</p>
   <div id="hearts"></div>
   <script>
     const bubble = document.querySelector('#bubble');
@@ -89,10 +89,10 @@
     });
 
     function generateHearts() {
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 500; i+=10) {
         let heart = document.createElement('div');
         heart.classList.add('heart');
-        heart.innerHTML = '❤❤❤';
+        heart.innerHTML = '❤ ❤ ❤';
         heart.style.left = Math.random() * 100 + '%';
         heart.style.top = Math.random() * 100 + '%';
         heart.style.animationDelay = Math.random() + 's';
