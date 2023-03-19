@@ -17,7 +17,7 @@ img {
 }
 
 .card-body {
-    transform: translate(-50%, -25%) !important;
+    transform: translate(-50%, -20%) !important;
     font-size: 1rem !important;
 }
 
@@ -57,14 +57,13 @@ svg {
 h1,h2,h3,h4,h5 {
     background-image: linear-gradient(to right, red,orange,yellow,green,skyblue,purple,violet, red); 
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  
+    -webkit-text-fill-color: transparent !important;  
     animation: rainbow-animation 10s linear infinite;
     font-weight: bolder !important;
-    /* font-size: 1.5rem !important; */
 }
 
 @keyframes rainbow-animation {
     to {
-        background-position: 350vh;
+        background-position: 300vh;
     }
 }
