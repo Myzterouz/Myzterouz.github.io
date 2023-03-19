@@ -36,12 +36,19 @@ img {
 a {
     color: #fff !important;
     transition: .1s !important;
+
+    
+    font-size: 3rem !important;    
+    background-image: linear-gradient(to right, red,orange,yellow,green,skyblue,purple,violet, red); 
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;  
+    animation: rainbow-animation 5s linear infinite;
+    font-weight: bolder !important;
 }
 
 .btn-group>a:hover {
     transform: scale(1.5) !important;
-    color: rgb(0, 183, 255) !important;
-    animation: rainbow-animation 30s linear infinite;
+    animation: rainbow-animation 10s linear infinite;
 }
 
 .text-justify {
@@ -62,8 +69,18 @@ h1,h2,h3,h4,h5 {
     font-weight: bolder !important;
 }
 
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover{
+    transform: scale(1.5) !important;
+    animation: rainbow-animation 5s linear infinite;
+}
+
 @keyframes rainbow-animation {
     to {
         background-position: 300vh;
     }
+}
+
+a:hover {
+    transform: scale(1.5) !important;
+    animation: rainbow-animation 1s linear infinite;
 }
