@@ -54,13 +54,13 @@ svg {
     width: 2.5rem !important;
 }
 
-h3 {
+h1,h2,h3,h4,h5 {
     background-image: linear-gradient(to right, red,orange,yellow,green,skyblue,purple,violet, red); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
-    animation: rainbow-animation 30s linear infinite;
+    animation: rainbow-animation 10s linear infinite;
     font-weight: bolder !important;
-    font-size: 1.5rem !important;
+    /* font-size: 1.5rem !important; */
 }
 
 @keyframes rainbow-animation {
