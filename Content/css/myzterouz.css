@@ -1,5 +1,5 @@
 * {
-    font-family: 'Varela Round' !important; 
+    font-family: 'Varela Round' !important;
 }
 
 body {
@@ -17,6 +17,7 @@ img {
 
 .card-body {
     transform: translate(-50%,-25%) !important;
+    font-size: 1rem !important;
 }
 
 .card {
@@ -45,6 +46,6 @@ a {
 }
 
 svg {
-    height: 3.5rem !important;
-    width: 3.5rem !important;
+    height: 2.5rem !important;
+    width: 2.5rem !important;
 }
