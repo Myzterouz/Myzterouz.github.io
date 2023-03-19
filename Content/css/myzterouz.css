@@ -16,7 +16,7 @@ img {
 }
 
 .card-body {
-    transform: translate(-50%,-25%) !important;
+    transform: translate(-50%, -25%) !important;
     font-size: 1rem !important;
 }
 
@@ -28,7 +28,7 @@ img {
 }
 
 .btn-group {
-    transform: translate(-50%,-80%) !important;
+    transform: translate(-50%, -80%) !important;
     justify-content: space-evenly !important;
 }
 
@@ -37,15 +37,31 @@ a {
     transition: .1s !important;
 }
 
-.btn-group > a:hover {
+.btn-group>a:hover {
     transform: scale(1.5) !important;
 }
 
 .text-justify {
-    text-align:justify !important;
+    text-align: justify !important;
+    letter-spacing: 0.1em !important;
 }
 
 svg {
     height: 2.5rem !important;
     width: 2.5rem !important;
+}
+
+h3 {
+    background-image: linear-gradient(to right, red,orange,yellow,green,skyblue,purple,violet, red); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 60s linear infinite;
+    font-weight: bolder !important;
+    font-size: 1.2rem !important;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 350vh;
+    }
 }
