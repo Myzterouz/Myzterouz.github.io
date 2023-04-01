@@ -3,11 +3,11 @@
 }
 
 body {
-    overflow-x: hidden !important;
+    overflow: hidden !important;
 }
 
 .page_404 {
-    padding: 40px 0px;
+    padding: 10px 0px;
     background: #fff;
 }
 
@@ -21,11 +21,7 @@ body {
     background-position: center;
 }
 
-.four_zero_four_bg h1 {
-    font-size: 80px;
-}
-
-.four_zero_four_bg h3 {
+h1,h3 {
     font-size: 80px;
 }
 
