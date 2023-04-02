@@ -21,6 +21,7 @@ function setup(){
     $('#img1').parent().find('.card-text').text(text1);
     $('#img2').parent().find('.card-text').text(text2);
     $("#backButton").attr("href",indexhtml);
+    $('.four_zero_four_bg').css('background-image', 'url(' + gif_404 + ')');
 }
 
 function  loadhtml(mode){
